@@ -1,0 +1,1196 @@
+/*
+Theme Topic: Digital Agency 
+Assignment: 2
+Assigned to: Hamzah Owaidat
+Assigned by: Ahmad Chebbo
+Version: 1.0
+License: GNU General Public License v2 or later
+*/
+
+/*************** Root ***************/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --primary-color: #62ECC1;
+    --secondary-color: #222589;
+    --tertiary-color: #333333;
+    --quaternary-color: #fff;
+    --primary-font: 'Raleway', sans-serif;
+}
+
+/*************** Body ***************/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.container{
+    padding: 0px 50px;
+}
+
+/* ===> START NAVBAR <=== */
+.navbar-toggler {
+    border: none;
+}
+.collapse .navbar-collapse{
+    position: absolute;
+}
+/* ===> END NAVBAR <=== */
+
+/* ===> START MAIN <=== */
+.main {
+    min-height: calc(100vh - 66.69px);
+    background-image: url(/assets/images/bg-cover-img.jpg);
+    background-size: cover;
+    position: 50% 50%;
+    /* align-items: center;
+    justify-content: center; */
+    /* height: 100vh; */
+}
+.sub-main{
+    padding-top: 120px;
+
+}
+.main h1{
+    font-weight: bolder;
+    font-size: 60px;
+    letter-spacing: 2px;
+    color: var(--primary-color);
+}
+.main p{
+    color: var(--quaternary-color);
+    font-size: 22px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.main  #btn-1{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    /* margin-right: 5px; */
+    padding: 10px 20px;
+}
+.main  #btn-2{
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    /* margin-left: 5px; */
+    padding: 10px 15px;
+}
+/* ===> END MAIN <=== */
+
+/* ===> START ABOUT-ME <=== */
+.about-me{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.about-me button{
+    background-color: var(--secondary-color);
+    color: var(--quaternary-color);
+    letter-spacing: 2px;
+    padding: 5px 10px;
+    border-radius: 0px;
+    font-size: 15px;
+}
+.about-me button:hover{
+    background-color: var(--secondary-color);
+    color: var(--quaternary-color);
+}
+.about-me h1{
+    color: var(--secondary-color);
+    font-size: 45px;
+    letter-spacing: 2px;
+    padding-top: 20px;
+}
+.about-me p{
+    font-size: 17px;
+    color: rgb(180, 180, 180);
+    text-align: justify;
+    width: 400px;
+    padding-top: 20px;
+}
+.about-me img{
+    width: 100%;
+}
+/* ===> END ABOUT-ME <=== */
+
+/* ===> START PROTOTYPE <=== */
+.prototype{
+    background-color: var(--primary-color);
+}
+.prototype h1{
+    color: var(--secondary-color);
+}
+.prototype h2{
+    font-size: 20px;
+}
+.prototype .icon-1{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.prototype .row .col-6 #svg-1{
+    width: 50px;
+    height: 50px;
+    fill: var(--secondary-color);
+}
+.prototype .icon-2{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.prototype .row .col-6 #svg-2{
+    width: 50px;
+    height: 50px;
+    fill: var(--secondary-color);
+}
+.prototype .icon-3{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.prototype .row .col-6 #svg-3{
+    width: 50px;
+    height: 50px;
+    fill: var(--secondary-color);
+}
+.prototype .icon-4{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.prototype .row .col-6 #svg-4{
+    width: 50px;
+    height: 50px;
+    fill: var(--secondary-color);
+}
+.prototype .icon-5{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.prototype .row .col-6 #svg-5{
+    width: 50px;
+    height: 50px;
+    fill: var(--secondary-color);
+}
+.prototype .icon-6{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.prototype .row .col-6 #svg-6{
+    width: 50px;
+    height: 50px;
+    fill: var(--secondary-color);
+}
+/* ===> END PROTOTYPE <=== */
+
+/* ===> START FEATURES */
+.features{
+    background-color: var(--secondary-color);
+    padding-bottom: 100px;
+}
+.features .title{
+    padding-top: 50px;
+    color: var(--quaternary-color);
+    letter-spacing: 3px;
+    font-size: large;
+}
+.features h1{
+    color: var(--quaternary-color);
+    letter-spacing: 2px;
+    padding-bottom: 50px;
+}
+.features .card{
+    border-radius: 20px ;
+}
+.features .card img{
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.features h3{
+    color: var(--secondary-color);
+    font-size: 25px;
+}
+.features p{
+    font-size: small;
+    color: var(--secondary-color);
+}
+.features .btn{
+    padding: 5px 50px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    margin-bottom: 30px;
+}
+/* ===> END FEATURES */
+
+/* ===> START MARKETING <=== */
+.marketing{
+    background-color: var(--primary-color);
+}
+.marketing h1{
+    padding-top: 80px;
+    color: var(--secondary-color);
+}
+.marketing h5{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 3px;
+}
+.marketing img{
+    width: 600px;
+}
+/* ===> END MARKETING <=== */
+
+/* ===> START CREATING DIGITAL <=== */
+.creatingDigital{
+    padding-top: 60px;
+
+}
+.creatingDigital .background{
+    background-image: linear-gradient(
+        to right,
+        var(--quaternary-color) 65%,
+        var(--secondary-color) 35%);
+    min-height: 85vh;
+}
+.creatingDigital h1{
+    color: var(--secondary-color);
+    padding-top: 80px;
+    font-size: 70px;
+}
+.creatingDigital p{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: black;
+    
+}
+.creatingDigital .btn{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 20px;
+    padding: 7px 25px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.creatingDigital img{
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    border-radius: 10%,!important;
+}
+/* ===> END CREATING DIGITAL <=== */
+
+/* ===> START DESIGN TRENDS <=== */
+.trends{
+    background-image: url(/assets/images/web-trend-design-img.jpg);
+    background-size: cover;
+    /* min-height: 100vh; */
+    /* background-position: 100%; */
+}
+.trends h1{
+    color: var(--quaternary-color);
+    text-shadow: 0px 0px 10px black;
+    font-size: 60px;
+    padding-top: 400px;
+    padding-bottom: 20px;
+}
+.trends .btn{
+    background-color: var(--quaternary-color);
+    color: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 30px;
+    padding: 7px 40px;
+    font-size: 20px;
+}
+.trends p{
+    padding-left: 380px;
+    padding-right: 380px;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    color: var(--quaternary-color);
+}
+/* ===> END DESIGN TRENDS <=== */
+
+/* ===> START PRODUCTS <=== */
+.products{
+    padding-bottom: 30px;
+}
+.products h1{
+    color: var(--secondary-color);
+    padding-top: 30px;
+}
+.products p{
+    color: rgb(182, 180, 180);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.products img{
+    width: 100%;
+    border-radius: 20px;
+    height: 100%;
+}
+.products ul li{
+    font-size: 20px;
+    color: rgb(17, 17, 17);
+}
+/* ===> END PRODUCTS <=== */
+
+/* ===> START ABOUT-US <=== */
+
+.about{
+    background-color: var(--primary-color);
+}
+
+.about .about-page{
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+.about .about-text{
+        padding-top: 50px;
+        line-height: 20px;
+        padding-bottom: 50px;
+        padding-right: 50px;
+        padding-left: 50px;
+}
+.about .about-text h1{
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.about .about-text h5{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.about .about-img img{
+    width: 100%;
+    border-radius: 25px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.about .about-text p{
+    text-align: justify;
+    line-height: 30px;   
+}
+
+
+.about .card{
+    border-radius: 15px;
+    background-color: var(--secondary-color);
+}
+
+.about .card-body{
+    color: white;
+}
+
+.about .card-body h5{
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.about .card-body p{
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+/* ===> END ABOUT-US <=== */
+
+/* ===> Start Footer <=== */
+
+.footer{
+    background-color: var(--tertiary-color);
+}
+
+.footer p{
+    color: var(--primary-color);
+}
+/* ===> End Footer ===> */
+
+/* ===> START RESPONSIVE CODE */
+@media (max-width: 1024px){
+    /* ===> START MAIN <=== */
+    .sub-main{
+        padding-top: 100px;
+    }
+    .main h1{
+        font-size: 50px;
+    }
+    .main p{
+        font-size: 13;
+        padding-left: 230px;
+        padding-right: 230px;
+    }
+    /* ===> END MAIN <=== */
+    /* ===> START ABOUT-ME <=== */
+    .about-me h1{
+        font-size: 45px;
+    }
+    .about-me p{
+        width: 400px;
+    }
+    /* ===> END ABOUT-ME <=== */
+    /* ===> START FEATURES <=== */
+    .features h3{
+        font-size: 28px;
+    }
+    .features .card-12{
+        padding-bottom: 25px;
+        padding-top: 10px;
+    }
+    .features p{
+        font-size: medium;
+    }
+    /* ===> END FEATURES <=== */
+
+    /* ===> START CREATING DIGITAL <=== */
+    .creatingDigital .background{
+        background-image: linear-gradient(
+            to right,
+            var(--quaternary-color) 60%,
+            var(--secondary-color) 40%);
+        min-height: 65vh;
+    }
+    .creatingDigital h1{
+        font-size: 50px;
+    }
+    .creatingDigital p{
+        font-size: 17px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        color: black;
+    }
+    .creatingDigital .btn{
+        border-radius: 20px;
+        padding: 7px 25px;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    .creatingDigital img{
+        width: 100%;
+        height: 100%;
+        padding-top: 50px;
+    }
+    /* ===> END CREATING DIGITAL <=== */
+
+    /* ===> START DESIGN TRENDS <=== */
+.trends{
+    background-position: 50%;
+}
+.trends h1{
+
+    font-size: 60px;
+    padding-top: 400px;
+    padding-bottom: 20px;
+}
+.trends .btn{
+    background-color: var(--quaternary-color);
+    color: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 30px;
+    padding: 7px 40px;
+    font-size: 20px;
+}
+.trends p{
+    padding-left: 200px;
+    padding-right:200px;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    color: var(--quaternary-color);
+}
+/* ===> END DESIGN TRENDS <=== */
+
+/* ===> START ABOUT-US <=== */
+.about .about-page{
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+.about .about-text{
+    padding-top: 0px;
+    line-height: 10px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+.about .about-text h1{
+    
+    font-size: 40px;
+}
+
+.about .about-text h5{
+    padding-bottom: 20px;
+}
+
+.about .about-img img{
+    width: 100%;
+    border-radius: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.about .about-text p{
+    line-height: 25px;  
+    font-size: 14px; 
+}
+
+.about .card{
+    border-radius: 15px;
+    background-color: var(--secondary-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.about .card-body{
+    color: white;
+}
+
+.about .card-body h5{
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.about .card-body p{
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+/* ===> END ABOUT-US <=== */
+}
+@media (max-width: 768px){
+    /* ===> START MAIN <=== */
+    .sub-main{
+        padding-top: 100px;
+    }
+    .main h1{
+        font-size: 40px;
+    }
+    .main p{
+        padding-left: 120px;
+        padding-right: 120px;
+        font-size: 18px;
+    }
+    .main  #btn-1{
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+        /* margin-right: 5px; */
+        padding: 10px 20px;
+        font-size: 15px
+    }
+    .main  #btn-2{
+        background-color: transparent;
+        color: var(--primary-color);
+        border: 2px solid var(--primary-color);
+        /* margin-left: 5px; */
+        font-size: 15px;
+    }
+    /* ===> END MAIN <=== */
+
+    /* ===> START ABOUT-ME <=== */
+    .about-me{
+        padding-top: 100px;
+    }
+    .about-me button{
+        background-color: var(--secondary-color);
+        color: var(--quaternary-color);
+        letter-spacing: 2px;
+        padding: 5px 10px;
+        border-radius: 0px;
+    }
+    .about-me button:hover{
+        background-color: var(--secondary-color);
+        color: var(--quaternary-color);
+    }
+    .about-me h1{
+        font-size: 30px !important;
+        letter-spacing: 2px;
+        padding-top: 20px;
+    }
+    .about-me p{
+        font-size: 12px;
+        color: rgb(180, 180, 180);
+        text-align: justify;
+        width: 250px !important;
+        padding-top: 20px;
+    }
+    .about-me img{
+        width: 100%;
+    }
+    /* ===> END ABOUT-ME <=== */
+
+    /* ===> START ABOUT-ME <=== */
+    .about-me h1{
+        font-size: 45px;
+    }
+    .about-me p{
+        width: 400px;
+    }
+    /* ===> END ABOUT-ME <=== */ 
+
+    /* ===> START FEATURES <=== */
+    .features h3{
+        font-size: 20px;
+    }
+    .features .card-12{
+        padding-bottom: 20px;
+        padding-top: 5px;
+    }
+    .features p{
+        font-size: small;
+    }
+    /* ===> END FEATURES <=== */
+
+    /* ===> START CREATING DIGITAL <=== */
+    .creatingDigital .background{
+        background-image: linear-gradient(
+            to right,
+            var(--quaternary-color) 60%,
+            var(--secondary-color) 40%);
+        min-height: 80vh;
+    }
+    .creatingDigital h1{
+        font-size: 50px;
+    }
+    .creatingDigital p{
+        font-size: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: black;
+    }
+    .creatingDigital .btn{
+        border-radius: 20px;
+        padding: 7px 25px;
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+    .creatingDigital img{
+        width: 100%;
+        height: 100%;
+        padding-top: 50px;
+    }
+    /* ===> END CREATING DIGITAL <=== */
+
+    /* ===> START DESIGN TRENDS <=== */
+.trends{
+    background-position: 30%;
+}
+.trends h1{
+
+    font-size: 60px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.trends .btn{
+    background-color: var(--quaternary-color);
+    color: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 30px;
+    padding: 7px 40px;
+    font-size: 15px;
+}
+.trends p{
+    padding-left: 200px;
+    padding-right:200px;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    color: var(--quaternary-color);
+}
+/* ===> END DESIGN TRENDS <=== */
+
+/* ===> START PRODUCTS <=== */
+.products p{
+    font-size: small;
+}
+.products h3{
+    font-size: 20px;
+}
+.products ul li{
+    font-size: 15px;
+}
+/* ===> END PRODUCTS <=== */
+
+/* ===> START ABOUT-US */
+.about .about-page{
+    padding-left: 10px;
+}
+
+.about .about-text{
+    text-align: center;
+}
+.about .card{
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 0px;
+}
+
+.about .card:last-child{
+    margin-top: 12px;
+}
+
+/* ===> END ABOUT-US */
+}
+@media (max-width: 426px){
+    /* ===> START MAIN <=== */
+    .main{
+        background-position: 40%;
+        /* min-height: 75vh; */
+    }
+    .main h1{
+        font-size: 2.5rem;
+    }
+    .main p{
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        font-size: 1.5rem;
+    }
+
+    .main .col-md-6 {
+        text-align: center !important;
+    }
+
+    .main  #btn-1{
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    .main  #btn-2{
+        font-size: 12px;
+    }
+    /* ===> END MAIN <=== */
+
+    /* ===> START ABOUT-ME <=== */
+    .container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .about-me{
+        padding-top: 40px;
+        
+        text-align: center;
+    }
+    .about-me button{
+        letter-spacing: 2px;
+        padding: 5px 10px;
+        border-radius: 0px;
+        font-size: 14px;
+    }
+    .about-me h1{
+        font-size: 25px;
+        letter-spacing: 2px;
+        padding-top: 20px;
+    }
+    .about-me p{
+        font-size: 15px;
+        padding-top: 20px;
+        width: 100%;
+    }
+    .about-me img{
+        width: 100%;
+        padding-top: 50px;
+    }
+    /* ===> END ABOUT-ME <=== */
+
+    /* ===> START PROTOTYPE <=== */
+    .prototype .icon-1 h2{
+        font-size: 14px;
+    }
+    .prototype .row .col-6 #svg-1{
+        width: 30px;
+        height: 30px;
+    
+    }
+    .prototype .icon-2 h2{
+        font-size: 14px;
+    }
+    .prototype .row .col-6 #svg-2{
+        width: 30px;
+        height: 30px;
+    
+    }
+    .prototype .icon-3 h2{
+        font-size: 14px;
+    }
+    .prototype .row .col-6 #svg-3{
+        width: 30px;
+        height: 30px;
+        
+    }
+    .prototype .icon-4 h2{
+        font-size: 14px;
+    }
+    .prototype .row .col-6 #svg-4{
+        width: 30px;
+        height: 30px;
+        
+    }
+    .prototype .icon-5 h2{
+        font-size: 14px;
+    }
+    .prototype .row .col-6 #svg-5{
+        width: 30px;
+        height: 30px;
+    
+    }
+    .prototype .icon-6 h2{
+        font-size: 14px;
+    }
+    .prototype .row .col-6 #svg-6{
+        width: 30px;
+        height: 30px;
+    }
+    /* ===> END PROTOTYPE <=== */
+
+    /* ===> START FEATURES <=== */
+    .features h3{
+        font-size: 35px;
+    }
+    .features p{
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    /* ===> END FEATURES <=== */
+
+
+    /* ===> START MARKETING <=== */
+    .marketing h1{
+        font-size: 35px;
+    }
+    .marketing h5{
+        font-size: small;
+    }
+    .marketing img{
+        width: 400px;
+    }
+    /* ===> END MARKETING <=== */
+
+    /* ===> START CREATING DIGITAL <=== */
+    .creatingDigital .background{
+        background-image: linear-gradient(
+            to bottom,
+            var(--quaternary-color) 70%,
+            var(--secondary-color) 30%);
+        min-height: 80vh;
+    }
+    .creatingDigital h1{
+        font-size: 50px;
+        padding-top: 30px;
+    }
+    .creatingDigital p{
+        font-size: 15px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: black;
+    }
+    .creatingDigital .btn{
+        border-radius: 20px;
+        padding: 7px 25px;
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+    .creatingDigital img{
+        width: 100%;
+        height: 100%;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    /* ===> END CREATING DIGITAL <=== */
+
+    /* ===> START DESIGN TRENDS <=== */
+.trends{
+    background-position: 55%;
+}
+.trends h1{
+    font-size: 60px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.trends .btn{
+    background-color: var(--quaternary-color);
+    color: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 30px;
+    padding: 7px 40px;
+    font-size: 15px;
+}
+.trends p{
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-size:15px;
+}
+/* ===> END DESIGN TRENDS <=== */
+
+/* ===> START PRODUCTS <=== */
+.products h1{
+    font-size: 25px;
+}
+.products p{
+    font-size: x-small;
+}
+.products .col-sm-12{
+    padding-top: 20px;
+}
+/* ===> END PRODUCTS <=== */
+
+
+/* ===> START ABOUT-US */
+.about .about-page{
+padding-left: 10px;
+}
+.about .about-text{
+    text-align: center;
+}
+
+.about .last-cards{
+    margin-left: 1px;
+}
+
+.about .card{
+padding-top: 5px;
+padding-bottom: 0px;
+padding-left: 0px;
+}
+/* ===> END ABOUT-US */
+}
+@media (max-width: 375px){
+     /* ===> START MAIN <=== */
+    .main h1{
+        font-size: 40px;
+    }
+    .main p{
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+    .main  #btn-1{
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+    .main  #btn-2{
+        background-color: transparent;
+        color: var(--primary-color);
+        border: 1px solid var(--primary-color);
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+    /* ===> END MAIN <=== */
+
+    /* ===> START ABOUT-ME <=== */
+    .container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .about-me{
+        padding-top: 40px;
+    }
+    .about-me button{
+        background-color: var(--secondary-color);
+        color: var(--quaternary-color);
+        letter-spacing: 2px;
+        padding: 5px 10px;
+        border-radius: 0px;
+        font-size: 15px;
+    }
+    .about-me button:hover{
+        background-color: var(--secondary-color);
+        color: var(--quaternary-color);
+    }
+    .about-me h1{
+        color: var(--secondary-color);
+        font-size: 30px;
+        letter-spacing: 2px;
+        padding-top: 20px;
+    }
+    .about-me p{
+        font-size: 15px;
+        color: rgb(180, 180, 180);
+        text-align: justify;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .about-me img{
+        width: 100%;
+    }
+    /* ===> END ABOUT-ME <=== */
+    /* ===> START PROTOTYPE <=== */
+    .prototype .icon-1 h2{
+        font-size: 12px;
+    }
+    .prototype .row .col-6 #svg-1{
+        width: 30px;
+        height: 30px;
+    
+    }
+    .prototype .icon-2 h2{
+        font-size: 12px;
+    }
+    .prototype .row .col-6 #svg-2{
+        width: 30px;
+        height: 30px;
+    
+    }
+    .prototype .icon-3 h2{
+        font-size: 12px;
+    }
+    .prototype .row .col-6 #svg-3{
+        width: 30px;
+        height: 30px;
+        
+    }
+    .prototype .icon-4 h2{
+        font-size: 12px;
+    }
+    .prototype .row .col-6 #svg-4{
+        width: 30px;
+        height: 30px;
+        
+    }
+    .prototype .icon-5{
+        padding-bottom: 65px;
+    }
+    .prototype .icon-5 h2{
+        font-size: 12px;
+    }
+    .prototype .row .col-6 #svg-5{
+        width: 30px;
+        height: 30px;
+    
+    }
+    .prototype .icon-6 h2{
+        font-size: 12px;
+    }
+    .prototype .row .col-6 #svg-6{
+        width: 30px;
+        height: 30px;
+    }
+    /* ===> END PROTOTYPE <=== */
+
+    .features h3{
+        font-size: 30px;
+    }
+    .features p{
+        font-size: small;
+        padding-top: 10px;
+    }
+    /* ===> END FEATURES <=== */
+
+    /* ===> START MARKETING <=== */
+    .marketing h1{
+        font-size: 30px;
+    }
+    .marketing img{
+        width: 300px;
+    }
+    /* ===> END MARKETING <=== */
+
+    .products h1{
+        font-size: 30px;
+    }
+    .products p{
+        font-size: 20px;
+    }
+}
+@media (max-width: 321px){
+    /* ===> START PROTOTYPE <=== */
+    .prototype .icon-1 h2{
+        font-size: 10px;
+    }
+    .prototype .row .col-6 #svg-1{
+        width: 30px;
+        height: 30px;
+    
+    }
+    .prototype .icon-2 h2{
+        font-size: 11px;
+    }
+    .prototype .row .col-6 #svg-2{
+        width: 30px;
+        height: 30px;
+    
+    }
+    .prototype .icon-3 h2{
+        font-size: 11px;
+    }
+    .prototype .row .col-6 #svg-3{
+        width: 30px;
+        height: 30px;
+        
+    }
+    .prototype .icon-4 h2{
+        font-size: 11px;
+    }
+    .prototype .row .col-6 #svg-4{
+        width: 30px;
+        height: 30px;
+        
+    }
+    .prototype .icon-5{
+        padding-bottom: 65px;
+    }
+    .prototype .icon-5 h2{
+        font-size: 11px;
+    }
+    .prototype .row .col-6 #svg-5{
+        width: 30px;
+        height: 30px;
+    
+    }
+    .prototype .icon-6 h2{
+        font-size: 11px;
+    }
+    .prototype .row .col-6 #svg-6{
+        width: 30px;
+        height: 30px;
+    }
+    /* ===> END PROTOTYPE <=== */
+
+    /* ===> START FEATURES <=== */
+    .features h3{
+        font-size: 25px;
+    }
+    .features p{
+        font-size: small;
+        padding-top: 10px;
+    }
+    /* ===> END FEATURES <=== */
+
+    .trends h1{
+        font-size: 40px;
+    }
+    .trends .btn{
+        font-size: 15px;
+    }
+
+    
+}
+/* ===> END RESPONSIVE CODE */
