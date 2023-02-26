@@ -39,6 +39,7 @@ License: GNU General Public License v2 or later
     bottom: 20px;
     color: black;
     cursor: pointer;
+    border: none;
     display: none;
 }
 .bi{
