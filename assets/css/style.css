@@ -29,6 +29,22 @@ License: GNU General Public License v2 or later
     padding: 0px 50px;
 }
 
+#button{
+    font-size: 40px;
+    background: transparent;
+    position: fixed;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    bottom: 20px;
+    color: black;
+    cursor: pointer;
+    display: none;
+}
+.bi{
+    cursor: pointer;
+}
+
 /* ===> START NAVBAR <=== */
 .navbar-toggler {
     border: none;
